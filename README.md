@@ -8,7 +8,7 @@ The Login Page will have have a two inputs with a button to login and it will al
 By default the theme will be picked by system default
 
 
-##React Libraries used
+## React Libraries used
 
 - react-router-dom
 - styled-components
