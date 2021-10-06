@@ -13,3 +13,9 @@ By default the theme will be picked by system default
 - react-router-dom
 - styled-components
 - framer-motion
+
+
+
+### First Prototype
+
+![image](https://user-images.githubusercontent.com/59247235/136238524-cb28256f-7a2e-4d1f-a3e1-a72e0356a233.png)
