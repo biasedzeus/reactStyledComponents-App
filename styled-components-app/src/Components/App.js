@@ -20,10 +20,16 @@ body{
 
 function App() {
   return (
-    <div>
+    <div style={{display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column"}}>
       <GlobalStyle/>
       <h1>Web Design</h1>
+      <Button secondary>Secondary</Button>
       <Button>Log IN</Button>
+      <Button large>Lg Prop</Button>
+      <Button disabled>Log IN -disabled</Button>
+
+
+
     </div>
   );
 }
