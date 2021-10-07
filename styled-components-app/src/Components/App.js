@@ -1,5 +1,8 @@
 import Button from "./common/Button";
 import {createGlobalStyle} from "styled-components"
+import {Switch,Route } from "react-router-dom";
+import Login from "./pages/Login";
+import Home from "./pages/Home";
 
 const GlobalStyle = createGlobalStyle`
 body{
@@ -23,10 +26,19 @@ function App() {
     <div style={{display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column"}}>
       <GlobalStyle/>
       <h1>Web Design</h1>
-      <Button secondary>Secondary</Button>
+      <Switch>
+        <Route exact path="/login" >
+         <Login/>
+        </Route>
+
+        <Route exact path="/home">
+          <Home/>
+        </Route>
+      </Switch>
+      {/* <Button secondary>Secondary</Button>
       <Button>Log IN</Button>
       <Button large>Lg Prop</Button>
-      <Button disabled>Log IN -disabled</Button>
+      <Button disabled>Log IN -disabled</Button> */}
 
 
 
