@@ -1,10 +1,11 @@
+import Layout from 'Components/common/Layout'
 import React from 'react'
 
 const Login = () => {
     return (
-        <div>
+        <Layout>
             Login
-        </div>
+        </Layout>
     )
 }
 
